@@ -12,4 +12,4 @@ router.get("/", function(req, res) {
     res.render("home/home");
 })
 
-module.exports = router; 
+module.exports = router;
