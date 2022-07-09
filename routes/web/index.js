@@ -1,6 +1,18 @@
-var express=require("express");
-var router=express.Router();
+var express = require("express");
 
-router.use("/",require("./home"));
+var router = express.Router();
 
-module.exports=router;
+
+//TODO:: add in error and info 
+
+router.use(function(req,res, next){
+    res.locals.currentUser = req.user;
+
+    next();
+});
+
+
+router.use("/", require("./home"));
+
+
+module.exports = router;

@@ -10,8 +10,17 @@
   "author": "Gokul G R",
   "license": "MIT",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "decrypt": "^0.0.1",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "path": "^0.12.7",
-    "ejs": "^3.1.8"
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.4",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
   }
 }
